@@ -1,0 +1,132 @@
+body{
+    font-family: 'Oswald', sans-serif;
+}
+h1{
+    font-size: 50px;
+}
+.orange-button{
+    background-color:green;
+    color: white;
+    text-decoration: none;
+    padding: 5px 25px;
+    border-radius: 10px;
+}
+.half-width{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.half-width img{
+    width: 100%;
+    padding-top: 5%;
+}
+.nevy{
+    color: darkmagenta;
+}
+.light-green{
+    color: green;
+}
+h1{
+    height: 50px;
+}
+.btn{
+    background-color:green;
+    border: none;
+    color: white;
+    text-decoration: none;
+    padding: 12px 30px; 
+    border-radius: 10px;
+}
+section{
+    padding-bottom: 550px;
+}
+.working-area{
+    text-align: center;
+}
+h2{
+    text-align: center;
+    font-size: 50px;
+}
+.single{
+    width: 25%;
+    float: left;
+    margin-left: 4%;
+}
+.latest{
+    padding-top: 750px;
+}
+.project{
+    box-shadow: 5px 5px 20px gray;
+    border-radius: 10px;
+    background-color: white;
+}
+.inquiry{
+    position: relative;
+}
+.center{
+    position: absolute;
+    top: 50%;
+    left: 34%;
+    transform: translate(-50%, -50%);
+    font-size: 50px;
+    color: white;
+    font-weight: 200;
+}
+.second{
+    position: absolute;
+    top: 50%;
+    right: 0%;
+    transform: translate(50%, -50%);
+    font-size: 20px;
+    color: white;
+    font-weight: 500;
+}
+img{
+    width: 60%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.h3{
+    text-align: center;
+    padding-top: 50px;
+    color: grey;
+}
+.h4{
+    text-align: center;
+    color: darkslateblue;
+    font-size: 25px;
+}
+.column{
+    float: left;
+    width: 4%;
+    padding: 5px;
+}
+.row::after{
+    position: relative;
+    content: "";
+    clear: both;
+    display: table;
+}
+.new{
+    position: absolute;
+    left: 50%;
+    right: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    padding-right: 150px;
+}
+.new1{
+    position: absolute;
+    left: 50%;
+    right: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+.new2{
+    position: absolute;
+    left: 50%;
+    right: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    padding-left: 150px;
+}
